@@ -7,6 +7,7 @@ import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer"
 
+
 function App() {
   return (
     <Router>

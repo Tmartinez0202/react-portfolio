@@ -1,14 +1,19 @@
 import React from "react";
 import { Container, Row, Col, Jumbotron } from "reactstrap";
 import styled from "styled-components";
+import codePic from "../images/codingpicture.jpg"
 
 const AboutWrapper = styled.div`
     text-align: center;
   
     .jumbotron {
-      background-color: black;
+      background: url(${codePic});
       color: white;
       height: 1400px;
+    }
+    a {
+      color: white;
+      
     }
 `
 

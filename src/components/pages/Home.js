@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col, Jumbotron } from "reactstrap";
 import profile from "../images/profile.jpg";
 import styled from "styled-components";
-import codePic from "../images/codepicture.jpg"
+import codePic from "../images/codingpicture.jpg"
+import Carousel from "../Carousel"
 
 const HomeWrapper = styled.div`
     text-align: center;
@@ -11,13 +12,16 @@ const HomeWrapper = styled.div`
     
     img {
       width: 400px;
+      padding: 30px;
     }
     .jumbotron {
-      background-color: black;
+      background: url(${codePic});
       color: white;
       height: 1300px;
     }
 `
+
+
 function Home() {
   return (
   <HomeWrapper>
@@ -30,6 +34,7 @@ function Home() {
                     <p className="lead">I am a full-stack web developer</p>
                     <img src={profile} alt="profile"/>
                   </Container>
+                <Carousel/>
                 </Jumbotron>
               </div>
           </Col>
