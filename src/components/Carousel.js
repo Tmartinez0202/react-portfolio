@@ -4,6 +4,8 @@ import brewgle from "../components/images/BrewgleSS.png"
 import neighboard from "../components/images/neighboard.png"
 import dayplanner from "../components/images/Work Day SS.png"
 import readme from "../components/images/ReadMe.png"
+import notetaker from "../components/images/ssnoteTaker.png"
+import budget from "../components/images/ssProgressiveBud.png"
 import styled from "styled-components";
 
 
@@ -15,6 +17,7 @@ img {
 }
 h3, p {
   color: black;
+  font-weight: 700;
 }
 
 `
@@ -42,6 +45,17 @@ const items = [
     altText: "Read Me Generator",
     caption: "a backend app that lets you generate a template and input information for a MD file",
     link: "https://github.com/Tmartinez0202/Read-me-generator"
+  },
+  {
+    src: notetaker,
+    altText: "Note Taker",
+    caption: "An app that lets you write and save notes.",
+    link: "https://tmartinez0202.github.io/note-taker/"
+  }, {
+    src: budget,
+    altText: "Progressive Budget",
+    caption: "An app that helps you manage your budget.",
+    link: "https://tmartinez0202.github.io/Progressive-budget/"
   },
 ];
 

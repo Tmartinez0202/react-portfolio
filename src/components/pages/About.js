@@ -12,8 +12,7 @@ const AboutWrapper = styled.div`
       height: 1400px;
     }
     a {
-      color: white;
-      
+      color: white
     }
 `
 
