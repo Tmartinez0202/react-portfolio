@@ -8,11 +8,8 @@ import Carousel from "../Carousel"
 const HomeWrapper = styled.div`
     text-align: center;
   
-   
-    
     img {
-      width: 400px;
-      padding: 30px;
+      padding: 20px;
     }
     .jumbotron {
       background: url(${codePic});
