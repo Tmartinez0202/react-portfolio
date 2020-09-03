@@ -13,7 +13,7 @@ function App() {
       <div>
         <NavTabs />
         <br></br>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/react-portfolio/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Footer/>
